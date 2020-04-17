@@ -1,0 +1,130 @@
+@charset "UTF-8";
+html, body, .capa{
+	height: 100%;
+}
+
+body{
+
+   background:url('../img/espaco.jpg')no-repeat,
+   			  url('../img/ruido.png'),
+   			  linear-gradient(50deg,#ff4169,#7c26f8);
+   	background-attachment: fixed;
+   	background-size: 1600px 1000px;
+   	font-family: Helvetica,Arial,sans-serif;
+}
+
+nav a{
+	color: white;
+	border-radius: 500px;
+	-webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    padding: 10px 35px;
+    margin: 0px 15px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+}
+nav a:hover{
+	background: #D3D3D3;
+}
+
+
+.capa{
+	display: table;
+	width: 100%;
+
+}
+.texto-capa {
+	text-align: center;
+	color: white;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+/* -- Botoes -- */
+.btn-custom {
+	color: white;
+	border-radius: 500px;
+	-webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    padding: 10px 35px;
+    margin: 0px 15px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+}
+
+.btn-azul {
+	background: #00BFFF;
+}
+.btn-azul:hover {
+	background-color:#1E90FF;
+	color: white;
+}
+
+.btn-branco {
+	border: 2px solid white;
+}
+.btn-branco:hover {
+	background-color: white;
+	color: black;
+}
+/* ========================= Tipografia ======================== */
+h1 {
+	font-size: 100px;
+	font-weight: 900;
+	letter-spacing: -0.09em;
+	margin-bottom: 50px;
+
+}
+h2{
+	font-size: 50px;
+	font-weight: 700;
+	letter-spacing: -10;
+}
+h3{
+	font-size: 30px;
+	font-weight: 700;
+	letter-spacing: -10;
+}
+
+#rodape h4{
+	color: #8B8989;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+#rodape .nav a:hover {
+	color:black;
+	background:none;
+}
+
+
+#servicos h2,#servicos h3 {
+	color: #4169E1;
+}
+#servicos{
+	background: #EEE9E9;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#recursos{
+	color: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.rotacionar{
+	transform: rotate(330deg);
+}
+#recursos h3{
+	color:#D3D3D3;
+}
+.albuns {
+	padding: 10px 10px 10px 10px;
+}
+
+footer{
+background:white;
+padding: 50px 0px 20px 0px;
+position: relative;
+}
+.item-rede-social{
+	float: left;
+}
